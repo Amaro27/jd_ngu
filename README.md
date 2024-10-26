@@ -15,7 +15,13 @@
 ### Generador de estacionamiento
 
 ### Gestión de estacionamiento
-- Un escaner detectará el ID del vehículo (codigoPais-ModeloBase-Serial)
-- Para la entrada de un producto, se obtendrá la información del operador, hora, ID del vehículo, y le dirá qué lugar está disponible (sección/cajón)
-- Para la salida de un producto, se escaneará el ID del vehículo, y se verificará que haya entrado en primer lugar. 
-- Qué vehículo es, a qué sección, y qué lugares hay
+- Para la entrada de un producto:
+    - Un escaner detectará el ID del vehículo (codigoPais-ModeloBase-Serial)
+    - Obtendrá la información del operador, hora, ID del vehículo
+    - Le dirá al operador qué lugar está disponible (sección/cajón)
+    - Se actualizará la base de datos 
+- Para la salida de un producto:
+    - se escaneará el ID del vehículo
+    - se verificará que haya entrado
+    - Se actualizará la base de datos
+
