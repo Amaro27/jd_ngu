@@ -1,2 +1,7 @@
 # jd_ngu
-yea
+
+## Consideraciones del problema
+
+
+## Objetivos de nuestra solución
+- Poder modificar los números de serie de los productos
